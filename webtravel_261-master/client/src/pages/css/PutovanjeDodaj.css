@@ -1,0 +1,114 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #1f1f1f;
+    color: #f8f9fa;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #61dafb;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar .nav-links a,
+.navbar .nav-links button {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links button:hover {
+    color: #61dafb;
+}
+
+/* Container styles */
+.trip-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #1f1f1f;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.trip-form-container h2 {
+    font-size: 2rem;
+    color: #61dafb;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.input-style {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    background-color: #2c2c2c;
+    color: #f8f9fa;
+}
+
+.input-style:focus {
+    border-color: #61dafb;
+    outline: none;
+}
+
+button.dugme {
+    background-color: #61dafb;
+    color: #1f1f1f;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button.dugme:hover {
+    background-color: #21a1f1;
+    transform: scale(1.05);
+}
+
+button.back-button {
+    margin-top: 1rem;
+    background-color: #555;
+    color: #f8f9fa;
+}
+
+button.back-button:hover {
+    background-color: #333;
+}
